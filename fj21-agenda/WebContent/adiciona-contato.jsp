@@ -4,7 +4,7 @@
 <%@ taglib tagdir="/WEB-INF/tags" prefix="caelum" %>
 
 <html>
-
+<title>Adição de contatos do Felipão!</title>
 	<head>
 	
 		<link href="css/jquery.css" rel="stylesheet">

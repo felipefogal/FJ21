@@ -1,5 +1,5 @@
 <html>
 	<body>
-		Contato ${param.nome} adicionado com sucesso
+		Contato ${param.nome} adicionado com sucesso! =)
 	</body>
 </html>

@@ -53,11 +53,6 @@ public class AdicionaContatoServlet extends HttpServlet {
 		RequestDispatcher rd = request.getRequestDispatcher("/contato-adicionado.jsp");
 		rd.forward(request, response);
 		
-//		out.println("<html>");
-//		out.println("<body>");
-//		out.println("Contato " + contato.getNome() + " adicionado com sucesso");
-//		out.println("</body>");
-//		out.println("</html>");
 	}
 	
 }
