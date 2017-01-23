@@ -15,10 +15,9 @@
 </head>
 <body>
 	<!-- cria o DAO -->
-	<jsp:useBean id="dao" class="br.com.caelum.agenda.dao.ContatoDao"/>
 		<table>
 			<!-- percorre contatos montando as linhas da tabela -->
-			<c:forEach var="contato" items="${dao.lista}">
+			<c:forEach var="contato" items="${contatos}">
 				<tr>
 					<td>${contato.nome}</td>
 					<td>
